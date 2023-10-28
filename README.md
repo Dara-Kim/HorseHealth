@@ -1,5 +1,5 @@
 # HorseHealth
-Kaggle playground Competition-Predict Health Outcomes of Horses(1st place of 1541 teams)
+Kaggle playground Competition-Predict Health Outcomes of Horses
 
 ## 목차
 1. [대회 소개 및 목표](#대회-소개-및-목표)
