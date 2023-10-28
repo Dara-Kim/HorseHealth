@@ -34,8 +34,21 @@ Horse Survival Dataset을 이용해 말의 생존 여부를 3가지로 예측.
 
 
 ## 코드
-
-
+1. origin data 활용
+2. feature engineering
+   - 새로운 feature 생성
+   - 컬럼 특성별 label encoding
+   - 컬럼 특성별 scaling (별도의 scaler는 사용하지 않음)
+   - *scaler를 사용하면 점수 하락*
+   - 결측 행 제거
+   - 범주형 feature의 결측값은 중간값으로
+   - 숫자형 feature의 결측값은 KNNImputer로
+3. 모델 선정: Lazy predict
+   - lgbm의 feature importance 기준 feature 삭제
+   - xgb, lgb, cat 모델 사용
+   - optuna로 하이퍼파라미터 조정
+4. stacking classifier 사용
+   
 ## 결과 및 한계점
 
 
