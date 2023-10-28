@@ -24,9 +24,9 @@ Horse Survival Dataset을 이용해 말의 생존 여부를 3가지로 예측.
 
 말의 건강 상태 데이터 
 
-train.csv - the training dataset; outcome is the (categorical) target
-test.csv - the test dataset; your objective is to predict outcome
-sample_submission.csv - a sample submission file in the correct format
+- train.csv - the training dataset; outcome is the (categorical) target
+- test.csv - the test dataset; your objective is to predict outcome
+- sample_submission.csv - a sample submission file in the correct format
 
 ## EDA
 
