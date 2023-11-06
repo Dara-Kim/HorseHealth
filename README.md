@@ -27,12 +27,6 @@ Horse Survival Dataset을 이용해 말의 생존 여부를 3가지로 예측.
 - sample_submission.csv - a sample submission file in the correct format
 
 ## 코드
-모델 설명 <br/>
-다른 모델을 선택한 이유 <br/>
-e.g. 이러이러해서 이걸 추가하면 좋을 것 같고 성능이 어떻게 변했다 <br/>
-모델 간 비교 <br/>
-기술적인 부분은 표로 (평가 지표를 이용해서) <br/>
-
 
 1. origin data 활용
 2. feature engineering
